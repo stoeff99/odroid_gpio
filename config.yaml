@@ -1,7 +1,7 @@
-name: "ODROID GPIO Access Test"
-version: "0.1"
-slug: "odroid_gpio_access_test"
-description: "GPIO access on ODROID M1S Test"
+name: "ODROID GPIO Switch"
+version: "1.0"
+slug: "odroid_gpio_switch"
+description: "GPIO Switch on ODROID M1S"
 url: "https://github.com/stoeff99/odroid_gpio"
 ingress: false
 panel_icon: mdi:chip
