@@ -2,6 +2,9 @@ name: "ODROID GPIO Access Test"
 version: "0.1"
 slug: "odroid_gpio_access_test"
 description: "GPIO access on ODROID M1S Test"
+url: "https://github.com/stoeff99/odroid_gpio"
+ingress: false
+panel_icon: mdi:chip
 startup: "application"
 boot: "auto"
 init: false
