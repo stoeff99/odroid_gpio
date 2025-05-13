@@ -1,0 +1,19 @@
+name: "ODROID GPIO Access Test"
+version: "0.1"
+slug: "odroid_gpio_access_test"
+description: "GPIO access on ODROID M1S Test"
+startup: "application"
+boot: "auto"
+init: false
+gpio: true
+apparmor: false
+host_network: true
+privileged: 
+  - SYS_RAWIO 
+  - SYS_ADMIN
+devices: 
+  - /dev/gpiochip0 
+  - /dev/gpiochip1
+
+arch:
+  - aarch64
